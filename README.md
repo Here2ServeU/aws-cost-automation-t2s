@@ -59,9 +59,13 @@ chmod +x scripts/delete_resources.sh
 #### Step 3: Validate the Creation of The Resources on the Console
 - Creating for the sake of our Demo.
 - At work, we will presume the existence of these resources. 
-![T2S AWS Cost Automation Demo](assets/demo1-3.png)
+> Checking the existence of the EC2 instance! 
 ![T2S AWS Cost Automation Demo](assets/demo1-4.png)
+
+> Checking the existence of Load Balancers! 
 ![T2S AWS Cost Automation Demo](assets/demo1-5.png)
+
+> Checking the existence of Databases! 
 ![T2S AWS Cost Automation Demo](assets/demo1-6.png)
 
 
@@ -72,7 +76,11 @@ chmod +x scripts/delete_resources.sh
 > - Validate on the Console 
 
 ![T2S AWS Cost Automation Demo](assets/demo1-7.png)
+
+> Checking the deletion of the EC2 instance! 
 ![T2S AWS Cost Automation Demo](assets/demo1-8.png)
+
+> Checking the deletion of the Databases! 
 ![T2S AWS Cost Automation Demo](assets/demo1-6.png)
 
 ---
