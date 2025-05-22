@@ -42,6 +42,39 @@ chmod +x scripts/delete_resources.sh
 ./scripts/delete_resources.sh
 ```
 
+#### Step 1: Get The Code from GitHub
+- Git Clone the Repository from my GitHub.
+- Move into the Directory that has all the code.
+
+![T2S AWS Cost Automation Demo](assets/demo1-1.png)
+
+#### Step 2: Run The Scripts
+- Creating the resources to clean up later. 
+- Make the scripts executable. 
+- Run the scripts
+
+![T2S AWS Cost Automation Demo](assets/demo1-2.png)
+
+
+#### Step 3: Validate the Creation of The Resources on the Console
+- Creating for the sake of our Demo.
+- At work, we will presume the existence of these resources. 
+![T2S AWS Cost Automation Demo](assets/demo1-3.png)
+![T2S AWS Cost Automation Demo](assets/demo1-4.png)
+![T2S AWS Cost Automation Demo](assets/demo1-5.png)
+![T2S AWS Cost Automation Demo](assets/demo1-6.png)
+
+
+#### Step 4: Cleaning Up for Cost Optimization
+- Repeat the steps above: 
+> - Making the script executable for clean up. 
+> - Running the script
+> - Validate on the Console 
+
+![T2S AWS Cost Automation Demo](assets/demo1-7.png)
+![T2S AWS Cost Automation Demo](assets/demo1-8.png)
+![T2S AWS Cost Automation Demo](assets/demo1-6.png)
+
 ---
 ## Demo Two: Using Python scripts To Create and Cleanup AWS Resources
 
