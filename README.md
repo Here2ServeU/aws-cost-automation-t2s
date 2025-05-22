@@ -30,11 +30,37 @@ Create a `.env` file from `.env.example` and export AWS credentials.
 | Create Resources | `scripts/create_resources.sh` | `scripts/create_resources.py`    |
 | Cleanup Resources| `scripts/delete_resources.sh` | `scripts/delete_resources.py`    |
 
-## Example
+## Demo One: Using Bash Shell scripts To Create and Cleanup AWS Resources 
 
 ```bash
-bash scripts/create_resources.sh
-bash scripts/delete_resources.sh
+# Make the script executable
+chmod +x scripts/create_resources.sh
+chmod +x scripts/delete_resources.sh
+
+# Run the script
+./scripts/create_resources.sh
+./scripts/delete_resources.sh
+```
+
+---
+## Demo Two: Using Python scripts To Create and Cleanup AWS Resources
+
+```bash
+# Step 1: Set up a Python virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate
+
+# Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Step 3: Configure AWS credentials (if not already set)
+aws configure
+
+# Step 4: Run the create script
+python scripts/create_resources.py
+
+# Step 5: When done, run the cleanup script
+python scripts/delete_resources.py
 ```
 
 ---
