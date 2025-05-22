@@ -33,3 +33,17 @@ Create a `.env` file from `.env.example` and export AWS credentials.
 bash scripts/create_resources.sh
 bash scripts/delete_resources.sh
 ```
+
+---
+## <div align="center">About the Author</div>
+
+<div align="center">
+  <img src="assets/emmanuel-naweji.jpg" alt="Emmanuel Naweji" width="120" height="120" style="border-radius: 50%;" />
+</div>
+
+**Emmanuel Naweji** is a seasoned Cloud and DevOps Engineer with years of experience helping companies architect and deploy secure, scalable infrastructure. He is the founder of initiatives that train and mentor individuals seeking careers in IT and has helped hundreds transition into Cloud, DevOps, and Infrastructure roles.
+
+- Book a free consultation: [https://here4you.setmore.com](https://here4you.setmore.com)
+- Connect on LinkedIn: [https://www.linkedin.com/in/ready2assist/](https://www.linkedin.com/in/ready2assist/)
+
+Let's connect and discuss how I can help you build reliable, automated infrastructure the right way.
