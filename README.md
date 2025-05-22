@@ -2,11 +2,14 @@
 
 This repository contains scripts to automate the creation and cleanup of cost-driving AWS resources used for development, testing, and training.
 
+The scripts are tools I use to automate the creation and cleanup of unwanted resources to help my clients reduce spending as they use Cloud services.
+ 
+
 ## Features
 
-- Create & destroy EC2, EBS, EIP, RDS, S3, and ALB resources
+- Create & destroy **EC2, EBS, EIP, RDS, S3, ALB**, or other Cloud resources
 - Uses naming convention: `t2s-test-*`
-- Works with Python (`boto3`) and Bash (AWS CLI)
+- Works with **Python (`boto3`)** and **Bash (AWS CLI)**
 - Modular automation for DevOps and Cloud teams
 
 ## Setup
