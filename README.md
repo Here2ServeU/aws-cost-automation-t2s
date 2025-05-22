@@ -15,7 +15,7 @@ The scripts are tools I use to automate the creation and cleanup of unwanted res
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/aws-cost-automation-t2s.git
+git clone https://github.com/Here2ServeU/aws-cost-automation-t2s.git
 cd aws-cost-automation-t2s
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
